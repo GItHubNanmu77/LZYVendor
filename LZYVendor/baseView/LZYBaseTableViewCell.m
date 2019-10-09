@@ -8,6 +8,7 @@
 
 #import "LZYBaseTableViewCell.h"
 
+#import "LZYMacro.h"
 //CGFloat const LeftIntend = 15.0;
 //CGFloat const LeftMargins = 10.0;
 //CGFloat const RightMargins = 10.0;

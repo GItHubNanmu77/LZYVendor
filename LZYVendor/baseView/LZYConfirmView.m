@@ -7,6 +7,7 @@
 //
 
 #import "LZYConfirmView.h"
+#import "LZYMacro.h"
 
 /// 按钮高度
 static const CGFloat kButtonHeight = 44.0;

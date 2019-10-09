@@ -7,6 +7,7 @@
 //
 
 #import "LZYGCDTimer.h"
+#import "LZYMacro.h"
 
 @implementation LZYGCDTimer
 

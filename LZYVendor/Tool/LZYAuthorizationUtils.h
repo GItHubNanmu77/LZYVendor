@@ -120,7 +120,7 @@ typedef void(^ReturnBlock)(BOOL isOpen);
  *
  *  @return <#return value description#>
  */
-+ (BOOL)isForceTouchAvailable:(UITraitCollection *)traitCollection;
+//+ (BOOL)isForceTouchAvailable:(UITraitCollection *)traitCollection;
 
 @end
 

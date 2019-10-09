@@ -7,7 +7,7 @@
 //
 
 #import "LZYURLImageView.h"
-
+#import "LZYMacro.h"
 
 @interface LZYURLImageView ()
 

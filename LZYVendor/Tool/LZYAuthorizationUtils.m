@@ -9,8 +9,7 @@
 #import "LZYAuthorizationUtils.h"
 
 
-
-#import "BlocksKit+UIKit.h"
+#import "LZYMacro.h"
 #import "LZYDeviceUtils.h"
 
 @implementation LZYAuthorizationUtils
@@ -461,15 +460,15 @@
  *
  *  @param deviceName 设备名
  */
-+ (void)showAlertView:(NSString *)deviceName {
-    NSString *title = [NSString stringWithFormat:@"%@权限已关闭", deviceName];
-    NSString *message = [self settingTips:deviceName];
-    [UIAlertView bk_showAlertViewWithTitle:title
-                                   message:message
-                         cancelButtonTitle:@"确定"
-                         otherButtonTitles:nil
-                                   handler:^(UIAlertView *alertView, NSInteger buttonIndex){
-                                   }];
-}
+//+ (void)showAlertView:(NSString *)deviceName {
+//    NSString *title = [NSString stringWithFormat:@"%@权限已关闭", deviceName];
+//    NSString *message = [self settingTips:deviceName];
+//    [UIAlertView bk_showAlertViewWithTitle:title
+//                                   message:message
+//                         cancelButtonTitle:@"确定"
+//                         otherButtonTitles:nil
+//                                   handler:^(UIAlertView *alertView, NSInteger buttonIndex){
+//                                   }];
+//}
 @end
 

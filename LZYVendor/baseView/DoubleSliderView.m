@@ -7,7 +7,7 @@
 //
 
 #import "DoubleSliderView.h"
-//#import "UIView+Extension.h"
+#import "LZYMacro.h"
 
 @interface DoubleSliderView ()
 
