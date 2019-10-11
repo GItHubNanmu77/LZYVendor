@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LZYVendor"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "常用工具类."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "LZYVendor", "LZYVendor/LZYVendor/**/*.{h,m}"
+  spec.source_files  = "LZYVendor", "LZYVendor/**/*.{h,m}"
  # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -139,6 +139,7 @@ Pod::Spec.new do |spec|
   spec.dependency "AFNetworking", "~> 3.2.1"
   spec.dependency "SDWebImage", "~> 5.2.2"
   spec.dependency "SVProgressHUD"
+  spec.dependency "MBProgressHUD"
 #  spec.dependency "AliyunOSSiOS"
 
 end

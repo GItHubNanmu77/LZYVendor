@@ -8,6 +8,7 @@
 
 #import "LZYCommonTipView.h"
 #import "LZYMacro.h"
+#import "BlocksKit+UIKit.h"
 
 @interface LZYCommonTipView ()
 
